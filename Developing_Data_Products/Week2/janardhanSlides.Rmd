@@ -1,0 +1,12 @@
+---
+title: "My Fancy Presentation"
+author: "Dr. Janardhan Kodavasal"
+date: "June 1, 2018"
+output: ioslides_presentation
+---
+
+## My title
+
+```{r, echo=FALSE, fig.align='center', fig.cap='My AWESOME figure'}
+plot(mtcars$wt, mtcars$mpg, xlab = "Weight", ylab = "MPG")
+```
